@@ -2,15 +2,16 @@
 
 
 //printf ("\n ax= %d", (*ax));
-void boy      (int x, int y, double size,  double rglaz,   double rot, double ylybka, int t);
-void boygo2   (int x, int y, int z, double size, double rglaz, double rot, double ylybka);
-void fon      ();
-void boyright (int* x, int* y, int *vx, int *vy, int *dt, int *ax, int *ay, int *t);
-void boll     (int x,   int y);
-void bollgo   (int *x, int *y, int *vx, int *vy, int *dt, int *ax, int *ay, int *t);
-void control  (int *x, int *y, int *vx, int *vy, int *dt, int *ax, int *ay, int *t);
-void prugup   (int *x, int *y, int *vx, int *vy, int *dt, int *ax, int *ay, int *t);
+void boy       (int x, int y, double size,  double rglaz,   double rot, double ylybka, int t);
+void boygo2    (int x, int y, int z, double size, double rglaz, double rot, double ylybka);
+void fon       ();
+void boyright  (int* x, int* y, int *vx, int *vy, int *dt, int *ax, int *ay, int *t);
+void boll      (int x,   int y);
+void bollgo    (int *x, int *y, int *vx, int *vy, int *dt, int *ax, int *ay, int *t);
+void control   (int *x, int *y, int *vx, int *vy, int *dt, int *ax, int *ay, int *t);
+void prugup    (int *x, int *y, int *vx, int *vy, int *dt, int *ax, int *ay, int *t);
 void formyladv (int *x, int *y, int *vx, int *vy, int *dt, int *ax, int *ay);
+
 int main ()
     {
      int dt = 1;
